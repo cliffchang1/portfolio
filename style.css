@@ -1,7 +1,8 @@
 .h1{
-    padding: 20px;
+    padding:0;
+    margin:0;
 }
-ul {
+.div {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -9,11 +10,7 @@ ul {
     background-color: #333;
   }
   
-  li {
-    float: left;
-  }
-  
-  li a {
+  div a {
     display: block;
     color: white;
     text-align: center;
@@ -21,15 +18,80 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+  div a:hover:not(.active) {
     background-color: #111;
   }
   
-  .active {
-    background-color: #4CAF50;
+  .samplework {
+    background-color: blueviolet;
+    justify-content: flex-end;
+    margin-left: auto;
   }
   .img{
     position: absolute;
     left: 85%;
   }
-  
+  body {
+    background-image: url(https://www.pcgamesn.com/wp-content/uploads/2019/05/rainbow-six-siege-operators.jpg);
+    background-size: cover;
+    background-position: top;
+  }
+  .aheading{
+    text-align: center;
+    color: rgb(220, 167, 20);;
+  }
+  .navigation{
+    display: flex;
+    flex-direction: row;
+  }
+  .border{
+    display: flex;
+    justify-content: center;
+  }
+  .about-text{
+    color: darkorange; 
+    background-color: darkviolet;
+    width: 50%;
+  }
+  .about img{
+    display: flex;
+  }
+  .border2{
+    display: flex;
+    justify-content: center;
+  }
+  .about-text2{
+    color: gold;
+    background-color: mediumblue;
+    width: 50%;
+    justify-content: center;
+  }
+  .MLB{
+    margin-left: auto;
+  }
+  .NPB{
+    margin: auto;
+  }
+  .CPBL{
+    margin-right: auto;
+  }
+  .cheading{
+    text-align: center;
+  }
+  .h2{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .contact-me{
+    background-color: peru;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+  }
+  .interested{
+    background-color: powderblue;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+  }
