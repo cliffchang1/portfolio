@@ -66,14 +66,23 @@
     width: 50%;
     justify-content: center;
   }
+  .bottom-img{
+    display: flex;
+  }
   .MLB{
     margin-left: auto;
+    width: 300px;
+    height: 300px;
   }
   .NPB{
     margin: auto;
+    width: 300px;
+    height: 300px;
   }
   .CPBL{
     margin-right: auto;
+    width: 300px;
+    height: 300px;
   }
   .cheading{
     text-align: center;
@@ -84,14 +93,32 @@
     margin: 0;
   }
   .contact-me{
-    background-color: peru;
-    display: flex;
-    width: 50%;
-    justify-content: center;
+    /* background-color: peru; */
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    /* display: flex; */
+    /* width: 50%; */
+    /* justify-content: center; */
+  }
+  .talk{
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
   }
   .interested{
     background-color: powderblue;
-    display: flex;
-    width: 50%;
-    justify-content: center;
+    /* display: flex; */
+    /* width: 50%; */
+    /* justify-content: center; */
+    padding: 20px;
+    text-align: center;
   }
+.sample-intro{
+  color: lightsalmon;
+}
+.img-link{
+  display: flex;
+  justify-content: space-between;
+  grid-column: auto / span 2;
+}
